@@ -11,8 +11,6 @@ window.onload = function(){
     closeBanner = localStorage.closeBanner;
     if(localStorage.debug == "true") {setTimeout(getBanner,200); return;}
 
-
-
     if(closeBanner===undefined){
         localStorage.setItem("closeBanner",new Date());
         setTimeout(getBanner,2000);

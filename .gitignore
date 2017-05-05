@@ -1,2 +1,4 @@
 uploads/
 classes/config.php
+node_modules
+banner-min.js
